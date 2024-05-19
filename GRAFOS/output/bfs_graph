@@ -1,0 +1,25 @@
+// Grafo de BFS
+digraph {
+	A [label=A]
+	A -> B
+	A -> C
+	B [label=B]
+	B -> A
+	B -> D
+	B -> E
+	C [label=C]
+	C -> A
+	C -> F
+	C -> G
+	D [label=D]
+	D -> B
+	E [label=E]
+	E -> B
+	E -> H
+	F [label=F]
+	F -> C
+	G [label=G]
+	G -> C
+	H [label=H]
+	H -> E
+}
